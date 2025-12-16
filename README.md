@@ -11,6 +11,7 @@ If you’d like to unlock every cat profile and learn more about them, here are 
   Correct answer: **eat**
 
 - **Macchiato**: Token-based access  
+  Double click - Inspect - Application - Local storage \
   Add the following to `localStorage`:
   - Key: `macchiato-token`
   - Value: `skinny-cat`
