@@ -1,6 +1,59 @@
-# page-vue
+# Data Table Management & Cat Display
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 project demonstrating interactive UI features including dynamic data tables, filtering, sorting, pagination, state management with Pinia, routing with navigation guards, and component-based design. This project also includes a fun multi-route “Cats” section showcasing nested routes and route protection logic, and you get to see my cats!
+
+---
+## Want to Access All the Cat Photos?
+If you’d like to unlock every cat profile and learn more about them, here are the answers:
+
+**Cat Access Answers:**
+- **Huihui**: Question-based access  
+  Correct answer: **eat**
+
+- **Macchiato**: Token-based access  
+  Add the following to `localStorage`:
+  - Key: `macchiato-token`
+  - Value: `skinny-cat`
+
+- **Huahua**: Multiple-choice access  
+  Correct option: **2**
+
+- **Chris**: Question-based access  
+  Correct answer: **No**
+
+## Features
+
+### Data Table Module
+- Load mock data via API
+- Filter data by:
+  - Name
+  - Address
+  - Gender
+  - Date range
+- Sort columns (ascending / descending)
+- Pagination with configurable page size
+- Add, edit, and delete rows
+- Notifications and confirmation dialogs
+- Centralized state management using **Pinia**
+
+### State Management (Pinia)
+- Stores table data, loading state, and edit state
+- Encapsulates:
+  - Filtering logic
+  - Sorting logic
+  - Pagination logic
+- Demonstrates clean separation of state, actions, and getters
+
+### Routing & Navigation
+- Built with **Vue Router**, including nested routes
+- Demonstrates multiple **route-guard strategies** for accessing detailed cat pages:
+  - Question-based verification
+  - Token-based access control
+  - Multiple-choice validation
+- Access state is persisted using `localStorage`
+
+---
+
 
 ## Recommended IDE Setup
 
